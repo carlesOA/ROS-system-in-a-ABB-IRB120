@@ -1,0 +1,16 @@
+<launch>
+
+	
+
+	<include file="$(find abb_irb120_moveit_config)/launch/moveit_planning_execution.launch" />
+
+	<include file="$(find openni_launch)/launch/openni.launch" />
+
+	<include file="$(find position)/launch/kinect_transform.launch" />
+	
+	<node name="perception_node_" pkg="perception" type="perception_node" />
+
+	<node name="position_node_" pkg="position" type="position_node" />
+	
+
+</launch>

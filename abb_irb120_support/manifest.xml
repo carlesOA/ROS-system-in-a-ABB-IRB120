@@ -1,0 +1,6 @@
+<package>
+  <description brief="abb_irb120_support">abb_irb120_support</description>
+  <depend package="gazebo" />
+  <author>carles oro</author>
+  <license>MIT</license>
+</package>
